@@ -34,12 +34,15 @@ $ npm run start:prod
 ## Como usar?
 
 Retorna os dados de todos os funcionários
+
 GET http://localhost:3000/api/employees
 
 Retorna dados de um funcionário especifico utilizando seu ID
+
 GET http://localhost:3000/api/employees/id
 
 Adiciona um novo funcionário
+
 POST http://localhost:3000/api/employees
 
 ```bash
@@ -51,6 +54,7 @@ POST http://localhost:3000/api/employees
 ```
 
 Atualiza os dados de um funcionário especifico utilizando seu ID
+
 PATCH http://localhost:3000/api/employees/id
 
 ```bash
